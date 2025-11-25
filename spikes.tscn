@@ -1,0 +1,218 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvc1fd04ww8pw"]
+
+[ext_resource type="Script" uid="uid://i1jtrce5f60g" path="res://spikes.gd" id="1_nrdsm"]
+[ext_resource type="Texture2D" uid="uid://c54q4evgqdyux" path="res://spikes.png" id="2_8fhau"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ds4fp"]
+size = Vector2(16, 64)
+
+[node name="Spikes" type="Node2D"]
+
+[node name="spikes" type="Area2D" parent="."]
+position = Vector2(64, 448)
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes2" type="Area2D" parent="."]
+position = Vector2(64, 320)
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes2"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes2"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes4" type="Area2D" parent="."]
+position = Vector2(1792, 384)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes4"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes4"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes9" type="Area2D" parent="."]
+position = Vector2(1984, 256)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes9"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes9"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes10" type="Area2D" parent="."]
+position = Vector2(1536, 448)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes10"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes10"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes11" type="Area2D" parent="."]
+position = Vector2(648, -320)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes11"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes11"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes12" type="Area2D" parent="."]
+position = Vector2(1984, -384)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes12"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes12"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes13" type="Area2D" parent="."]
+position = Vector2(1344, -384)
+rotation = -4.71239
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes13"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes13"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes14" type="Area2D" parent="."]
+position = Vector2(2112, 1152)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes14"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes14"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes6" type="Area2D" parent="."]
+position = Vector2(1792, 448)
+rotation = -3.14159
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes6"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes6"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes7" type="Area2D" parent="."]
+position = Vector2(1792, 512)
+rotation = -3.14159
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes7"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes7"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes8" type="Area2D" parent="."]
+position = Vector2(1600, 320)
+rotation = -3.14159
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes8"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes8"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes5" type="Area2D" parent="."]
+position = Vector2(1856, 384)
+rotation = -1.57029
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes5"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes5"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[node name="spikes3" type="Area2D" parent="."]
+position = Vector2(64, 0)
+rotation = -1.5708
+script = ExtResource("1_nrdsm")
+
+[node name="Spikes" type="Sprite2D" parent="spikes3"]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8fhau")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes3"]
+position = Vector2(8, 32)
+shape = SubResource("RectangleShape2D_ds4fp")
+
+[connection signal="area_entered" from="spikes" to="spikes" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes2" to="spikes2" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes4" to="spikes4" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes9" to="spikes9" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes10" to="spikes10" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes11" to="spikes11" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes12" to="spikes12" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes13" to="spikes13" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes14" to="spikes14" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes6" to="spikes6" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes7" to="spikes7" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes8" to="spikes8" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes5" to="spikes5" method="_on_area_entered"]
+[connection signal="area_entered" from="spikes3" to="spikes3" method="_on_area_entered"]
